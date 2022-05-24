@@ -19,3 +19,13 @@ type post struct {
 func NewPost() Post {
 	return &post{}
 }
+
+type Reply interface {
+}
+
+type reply struct {
+}
+
+func NewReply() Post {
+	return &reply{}
+}
